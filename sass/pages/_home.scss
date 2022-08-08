@@ -49,3 +49,54 @@
     margin-left: 5rem;
   }
 }
+
+// Section support
+.support {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__info-box {
+    width: 50%;
+  }
+  &__image-box {
+    width: 50%;
+  }
+
+  &__image {
+    width: 100%;
+  }
+}
+
+// Section services
+.services {
+  &__info {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__heading {
+    width: 50%;
+  }
+
+  &__para-box {
+    width: 50%;
+  }
+
+  &__features-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+  }
+
+  &__box {
+    width: 28.33%;
+    margin: 4rem 0;
+  }
+
+  &__img {
+    width: 18%;
+  }
+}

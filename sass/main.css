@@ -30,8 +30,22 @@ body {
   color: var(--color-grey-1);
 }
 
+.margin-medium {
+  margin: 3rem 0;
+}
+
 .heading-primary {
   font-size: 6.5rem;
+  color: var(--color-black);
+}
+
+.heading-secondary {
+  font-size: 5.5rem;
+  color: var(--color-black);
+}
+
+.heading-tertiary {
+  font-size: 2.5rem;
   color: var(--color-black);
 }
 
@@ -47,6 +61,26 @@ body {
   font-weight: 500;
   line-height: 1.6;
   margin: 4rem 0;
+}
+
+.support__text {
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 1.6;
+  margin: 4rem 0;
+}
+
+.services__para {
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 1.6;
+  margin: 4rem 0;
+}
+.services__text {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.6;
+  text-align: justify;
 }
 
 .btn-outline {
@@ -147,4 +181,44 @@ body {
 .about__text-box {
   width: 50%;
   margin-left: 5rem;
+}
+
+.support {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.support__info-box {
+  width: 50%;
+}
+.support__image-box {
+  width: 50%;
+}
+.support__image {
+  width: 100%;
+}
+
+.services__info {
+  display: flex;
+  justify-content: space-around;
+}
+.services__heading {
+  width: 50%;
+}
+.services__para-box {
+  width: 50%;
+}
+.services__features-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+.services__box {
+  width: 28.33%;
+  margin: 4rem 0;
+}
+.services__img {
+  width: 18%;
 }/*# sourceMappingURL=main.css.map */

@@ -87,7 +87,7 @@
   &__features-box {
     display: flex;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin: 10rem 0;
     flex-wrap: wrap;
   }
 
@@ -97,6 +97,17 @@
   }
 
   &__img {
-    width: 18%;
+    width: 16%;
   }
+}
+
+// Saection pricing
+.pricing__section {
+  height: 115vh;
+  background: linear-gradient(
+    to right bottom,
+    var(--color-primary),
+    var(--color-primary-dark)
+  );
+  overflow-y: hidden;
 }

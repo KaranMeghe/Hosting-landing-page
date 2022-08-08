@@ -8,9 +8,28 @@
   color: var(--color-black);
 }
 
+.secondary-white {
+  text-align: center;
+  color: var(--color-white-1);
+  margin: 6rem 0;
+}
+
 .heading-tertiary {
   font-size: 2.5rem;
   color: var(--color-black);
+}
+
+.heading-four {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.heading-card {
+  font-size: 3.5rem;
+  color: var(--color-black);
+}
+.heading-white {
+  color: var(--color-white-1);
 }
 .header__text {
   font-size: 1.7rem;
@@ -32,6 +51,9 @@
   line-height: 1.6;
   margin: 4rem 0;
 }
+.p-grey {
+  color: var(--color-grey);
+}
 
 // Services
 .services {
@@ -48,4 +70,8 @@
     line-height: 1.6;
     text-align: justify;
   }
+}
+
+.month {
+  color: var(--color-grey);
 }

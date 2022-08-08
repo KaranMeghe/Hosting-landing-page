@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  align-items: center;
+
+  &__logo {
+    &--img {
+      width: 65%;
+    }
+  }
+
+  &__list {
+    display: flex;
+
+    &--item {
+      margin-left: 30px;
+      font-size: 1.8rem;
+      list-style: none;
+      letter-spacing: 0.1rem;
+    }
+    &--item:nth-of-type(1) {
+      color: var(--color-black);
+      font-weight: 700;
+    }
+  }
+}

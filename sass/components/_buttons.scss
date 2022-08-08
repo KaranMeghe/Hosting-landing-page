@@ -1,0 +1,42 @@
+.btn-outline {
+  position: relative;
+  padding: 1.4rem 3rem;
+  background-color: var(--color-white);
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  top: -25%;
+  cursor: pointer;
+  color: var(--color-primary);
+  border: none;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: inherit;
+    z-index: -1;
+    background: linear-gradient(
+      to right bottom,
+      var(--color-primary),
+      var(--color-primary-dark)
+    );
+    margin: -2px;
+  }
+}
+
+.btn-main {
+  padding: 1.5rem 4rem;
+  border-radius: 1rem;
+  font-size: 1.8rem;
+  border: none;
+  background: linear-gradient(
+    to right bottom,
+    var(--color-primary),
+    var(--color-primary-dark)
+  );
+  color: var(--color-white);
+  font-weight: 700;
+}

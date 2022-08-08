@@ -42,6 +42,13 @@ body {
   margin: 4rem 0;
 }
 
+.about__text {
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 1.6;
+  margin: 4rem 0;
+}
+
 .btn-outline {
   position: relative;
   padding: 1.4rem 3rem;
@@ -120,4 +127,24 @@ body {
 }
 .header__img {
   width: 100%;
+}
+
+.about {
+  height: 100vh;
+}
+.about__info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+.about__image-box {
+  width: 50%;
+}
+.about__image {
+  width: 100%;
+}
+.about__text-box {
+  width: 50%;
+  margin-left: 5rem;
 }/*# sourceMappingURL=main.css.map */

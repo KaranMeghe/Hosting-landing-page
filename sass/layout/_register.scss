@@ -1,0 +1,15 @@
+.register {
+  background-image: url(/Hosting-landing-page/assets/footer-bg.svg);
+  height: 25vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 0;
+  background-repeat: no-repeat;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -9,6 +9,7 @@
   --color-black-2: #2c2c2c;
   --color-grey: #8787a0;
   --color-grey-1: #777777;
+  --color-grey-light: #dcdde1;
   --font-family: "Nuito", sans-serif;
 }
 
@@ -64,6 +65,19 @@ body {
   font-weight: 500;
 }
 
+.customer-heading {
+  color: var(--color-black);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.customer-name {
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: var(--color-black);
+}
+
 .heading-card {
   font-size: 3.5rem;
   color: var(--color-black);
@@ -112,6 +126,12 @@ body {
 }
 
 .month {
+  color: var(--color-grey);
+}
+
+.testimonials__text {
+  font-size: 1.8rem;
+  margin: 2rem 0;
   color: var(--color-grey);
 }
 
@@ -240,6 +260,41 @@ body {
   font-weight: 700;
 }
 
+.testimonials__boxes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.testimonials__box {
+  width: 40%;
+  border: 1px solid var(--color-grey-light);
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 5rem;
+}
+.testimonials__box--text {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--color-black-1);
+  line-height: 1.4;
+}
+.testimonials__box-customer {
+  margin-top: 5rem;
+  display: flex;
+  position: relative;
+}
+.testimonials__box-customer--img {
+  height: 7rem;
+  width: 7rem;
+  background-color: var(--color-grey-light);
+  border-radius: 50%;
+}
+.testimonials__box-customer--info {
+  position: absolute;
+  right: 55%;
+  top: 20%;
+}
+
 .container {
   width: 121.6rem;
   margin: 0 auto;
@@ -327,4 +382,13 @@ body {
   height: 115vh;
   background: linear-gradient(to right bottom, var(--color-primary), var(--color-primary-dark));
   overflow-y: hidden;
+}
+
+.testimonials {
+  height: 110vh;
+}
+.testimonials__content {
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
 }/*# sourceMappingURL=main.css.map */

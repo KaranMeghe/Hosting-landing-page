@@ -24,6 +24,19 @@
   font-weight: 500;
 }
 
+.customer-heading {
+  color: var(--color-black);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.customer-name {
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: var(--color-black);
+}
+
 .heading-card {
   font-size: 3.5rem;
   color: var(--color-black);
@@ -74,4 +87,13 @@
 
 .month {
   color: var(--color-grey);
+}
+
+// testimonials
+.testimonials {
+  &__text {
+    font-size: 1.8rem;
+    margin: 2rem 0;
+    color: var(--color-grey);
+  }
 }

@@ -111,3 +111,13 @@
   );
   overflow-y: hidden;
 }
+
+// Section testimonials
+.testimonials {
+  height: 110vh;
+  &__content {
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+  }
+}

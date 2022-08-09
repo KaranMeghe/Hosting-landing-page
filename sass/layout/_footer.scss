@@ -1,0 +1,53 @@
+.footer {
+  height: 40vh;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    height: inherit;
+    align-items: center;
+  }
+  &__heading-container {
+    display: flex;
+  }
+
+  &__heading--four {
+    margin-left: 8rem;
+    width: 100%;
+  }
+
+  &__logo--img {
+    width: 25%;
+    margin-bottom: 3rem;
+  }
+
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 4rem;
+
+    &-list {
+      margin-left: 3rem;
+      &--item {
+        list-style: none;
+        margin: 1.5rem 0;
+        font-size: 1.6rem;
+      }
+    }
+    &--social {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      text-align: center;
+      margin-left: 1.5rem;
+      margin-top: 1rem;
+    }
+  }
+
+  &-img {
+    width: 4rem;
+    display: inline-block;
+    margin-right: 1rem;
+  }
+}

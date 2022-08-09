@@ -110,3 +110,18 @@
   line-height: 1.3;
   letter-spacing: 0.1rem;
 }
+
+// footer
+.footer {
+  &__heading--four {
+    font-size: 2.2rem;
+    color: var(--color-black);
+    font-weight: 700;
+  }
+
+  &__logo-txt {
+    width: 80%;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+  }
+}

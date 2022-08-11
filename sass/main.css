@@ -380,7 +380,7 @@ body {
 }
 
 .register {
-  background-image: url(/Hosting-landing-page/assets/footer-bg.svg);
+  background-image: url(".././assets/footer-bg.svg");
   height: 25vh;
   width: 100%;
   background-size: cover;
